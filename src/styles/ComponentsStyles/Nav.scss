@@ -1,0 +1,7 @@
+.nav-items {
+  @apply flex justify-between px-[100px] py-[64px] text-white;
+
+  .page-title {
+    @apply flex font-[700] text-[3rem];
+  }
+}
