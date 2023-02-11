@@ -11,7 +11,7 @@ function Nav() {
           <p className="baze">yalbaze</p>
         </p>
         <div className="request-div">
-          <p className="request">Request a call</p>
+          <p className="request">Get Priority Access</p>
         </div>
       </div>
     </nav>
