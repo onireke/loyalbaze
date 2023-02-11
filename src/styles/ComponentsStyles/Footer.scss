@@ -1,0 +1,18 @@
+.footer-main {
+  @apply px-[6rem];
+  .footer-section {
+    @apply flex justify-between mt-[2rem] mb-[4rem];
+
+    .footer-left {
+      @apply flex items-start gap-[1rem] font-normal;
+    }
+
+    .footer-middle {
+      @apply text-[1.25rem] font-bold;
+    }
+
+    .footer-right {
+      @apply flex items-center gap-[1rem];
+    }
+  }
+}

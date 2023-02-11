@@ -7,6 +7,7 @@ import Nav from "@/components/Nav";
 import FirstPage from "@/components/FirstPage";
 import Form from "@/components/Form";
 import ConsultationPage from "@/components/ConsultationPage";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
       <FirstPage />
       <Form />
       <ConsultationPage />
+      <Footer />
     </>
   );
 }
