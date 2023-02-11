@@ -1,7 +1,12 @@
 import Head from "next/head";
+
 // import Image from "next/image";
 import { Inter } from "@next/font/google";
 import Nav from "@/components/Nav";
+
+import FirstPage from "@/components/FirstPage";
+import Form from "@/components/Form";
+import ConsultationPage from "@/components/ConsultationPage";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +20,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
+      <FirstPage />
+      <Form />
+      <ConsultationPage />
     </>
   );
 }

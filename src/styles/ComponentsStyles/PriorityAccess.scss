@@ -1,0 +1,9 @@
+.priority-access {
+  @apply max-w-[32rem] flex flex-col items-start;
+  .priority {
+    @apply text-[4rem];
+  }
+  .priority-line {
+    @apply ml-[7rem];
+  }
+}

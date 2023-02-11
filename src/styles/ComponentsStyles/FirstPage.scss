@@ -1,0 +1,18 @@
+.firstpage-main {
+  @apply text-white;
+  .fans-words {
+    @apply text-[4rem] flex flex-col items-center;
+
+    .purple-white {
+      @apply flex gap-4;
+
+      .color-purple {
+        @apply text-[#A75FD2];
+      }
+    }
+  }
+
+  .intro {
+    @apply flex flex-col items-center text-[1.5rem] font-normal;
+  }
+}
