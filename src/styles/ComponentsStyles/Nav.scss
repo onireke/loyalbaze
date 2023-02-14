@@ -1,7 +1,16 @@
 .nav-items {
-  @apply flex justify-between px-[100px] py-[64px] text-white;
+  @apply flex justify-between items-center px-[100px] mt-[64px] mb-[122px] text-white;
 
   .page-title {
     @apply flex font-[700] text-[3rem];
+  }
+  .get-div {
+    border-color: linear-gradient(
+      112.92deg,
+      #5404ff 18.35%,
+      rgba(189, 59, 210, 0.94) 71.49%
+    );
+    @apply flex items-center justify-center h-[3rem] w-[10rem] border
+      rounded-3xl;
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function FirstPage() {
   return (
-    <main className="firstpage-main">
+    <main className="firstpage-main relative">
       <section className="fans-words">
         <h1 className="loyal-fans">Turn your best customers</h1>
 

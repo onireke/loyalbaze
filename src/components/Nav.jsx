@@ -10,7 +10,7 @@ function Nav() {
           <Image src="/images/tittle-love.svg" width={30} height={40} />{" "}
           <p className="baze">yalbaze</p>
         </p>
-        <div className="request-div">
+        <div className="get-div">
           <p className="request">Get Priority Access</p>
         </div>
       </div>

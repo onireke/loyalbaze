@@ -5,7 +5,7 @@ function Form() {
   return (
     <main className="form-main">
       <form className="inline">
-        <div className="input-icons">
+        <div className="input-icon">
           <Image
             src="/images/person.svg"
             width={20}
@@ -13,10 +13,13 @@ function Form() {
             className="input-image"
           />
           <input
-            className="input-field max-w-15rem"
+            className="input-field "
             type="text"
             placeholder="Tell us your name"
           />
+        </div>
+
+        <div className="input-icon">
           <Image
             src="/images/mail.svg"
             width={20}

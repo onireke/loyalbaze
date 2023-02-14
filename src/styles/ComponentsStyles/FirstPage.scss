@@ -1,7 +1,19 @@
+.hero {
+  @apply relative h-[1024px];
+}
+
 .firstpage-main {
-  @apply text-white;
+  @apply text-white relative;
+  .circle1 {
+    @apply absolute right-[19rem];
+  }
+
+  .circle1 {
+    @apply absolute left-[2rem];
+  }
+
   .fans-words {
-    @apply text-[4rem] flex flex-col items-center;
+    @apply text-[4rem] flex flex-col items-center font-black mx-[20rem];
 
     .purple-white {
       @apply flex gap-4;
@@ -15,4 +27,34 @@
   .intro {
     @apply flex flex-col items-center text-[1.5rem] font-normal;
   }
+}
+
+.circle1 {
+  @apply absolute right-[19.5625rem] top-[7.875rem];
+}
+.circle2 {
+  @apply absolute left-[2.25rem] top-[14.4rem];
+}
+
+.circle3 {
+  @apply absolute right-[-5rem] top-[23.875rem] w-[400px] h-[400px];
+}
+.star1 {
+  @apply absolute top-[10.5rem] left-[41.875rem];
+}
+
+.star2 {
+  @apply absolute top-[20rem] right-[16rem];
+}
+
+.star3 {
+  @apply absolute top-[50rem] right-[6.25rem];
+}
+
+.star4 {
+  @apply absolute top-[54.5625rem] left-[9.8rem];
+}
+
+.twisted-arrow {
+  @apply absolute top-[32.95rem] right-[33rem];
 }

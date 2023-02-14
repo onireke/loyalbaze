@@ -2,10 +2,23 @@
   @apply mt-[4rem] w-[100%] flex place-items-center text-white;
 
   .inline {
-    @apply mx-auto;
+    @apply mx-auto flex flex-col gap-[1rem];
+
+    .input-icon {
+      @apply flex items-center pl-[1rem] gap-[1rem] w-[27rem] border h-[3rem] rounded-md;
+
+      .input-field {
+        @apply bg-[#121B27];
+      }
+    }
 
     .button-div {
-      @apply w-[27rem] h-[3rem]  bg-purple-600 rounded-[6rem] mt-[2rem] mb-[10rem];
+      background: linear-gradient(
+        112.92deg,
+        #5404ff 18.35%,
+        rgba(189, 59, 210, 0.94) 71.49%
+      );
+      @apply w-[27rem] h-[3rem]   rounded-[6rem] mt-[2rem] mb-[10rem];
 
       .form-button {
         @apply mx-[9rem] my-[0.8rem] font-bold;

@@ -22,7 +22,12 @@
     }
 
     .send-request {
-      @apply flex items-center justify-center w-[32rem] bg-purple-500 h-[2.5rem] rounded-xl text-[1rem] font-bold;
+      background: linear-gradient(
+        112.92deg,
+        #5404ff 18.35%,
+        rgba(189, 59, 210, 0.94) 71.49%
+      );
+      @apply flex items-center justify-center w-[32rem] h-[2.5rem] rounded-xl text-[1rem] font-bold;
     }
   }
 }

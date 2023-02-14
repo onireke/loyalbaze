@@ -1,3 +1,30 @@
 .consultation {
-  @apply flex gap-[5rem] justify-center mx-auto h-screen;
+  @apply flex gap-[5rem] justify-center items-center mx-auto h-screen;
+}
+
+.consultation-part {
+  @apply relative;
+}
+
+.circle4 {
+  @apply absolute top-[70.3125rem] left-[8.625rem];
+}
+
+.blue-star1 {
+  @apply absolute top-[72.625rem] left-[36.64rem];
+}
+.blue-star2 {
+  @apply absolute top-[68.375rem] right-[9.53rem];
+}
+
+.star2 {
+  @apply absolute top-[80.5625rem] left-[25.9375rem];
+}
+
+.star5 {
+  @apply absolute top-[111.25rem] left-[48.1875rem];
+}
+
+.star3-2 {
+  @apply absolute top-[128.4375rem] right-[7.6875rem];
 }
