@@ -1,5 +1,5 @@
 .booking-main {
-  @apply w-[40rem] py-[3.5rem] px-[4rem] bg-[#1D2939] max-h-[52rem] mb-[9rem];
+  @apply w-[40rem] py-[3.5rem] px-[4rem] bg-[#1D2939] max-h-[52rem]  rounded-[20px];
 
   .booking-inputs {
     @apply flex flex-col gap-[3rem];

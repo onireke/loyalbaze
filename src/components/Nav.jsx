@@ -11,7 +11,7 @@ function Nav() {
           <p className="baze">yalbaze</p>
         </p>
         <div className="get-div">
-          <p className="request">Get Priority Access</p>
+          <button className="request">Get Priority Access</button>
         </div>
       </div>
     </nav>

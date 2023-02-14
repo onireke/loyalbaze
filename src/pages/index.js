@@ -45,6 +45,7 @@ export default function Home() {
         <img src="./images/blue-star1.svg" alt="" className="blue-star1" />
         <img src="./images/blue-star2.svg" alt="" className="blue-star2" />
         <img src="./images/star3.svg" alt="" className="star3-2" />
+        <img src="./images/star2.svg" alt="" className="star2-2" />
       </section>
       <Footer />
     </>
